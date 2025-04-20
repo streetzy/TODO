@@ -26,7 +26,7 @@ import { getTodos } from "./endpoints/getTodos.js";
 import { getUserInvites } from "./endpoints/getUserInvites.js";
 import { getGroupInvites } from "./endpoints/getGroupInvites.js";
 const app = express();
-const PORT = 3000;
+const PORT = 5000;
 const AuthRouter: express.Router = express.Router();
 
 dotenv.config();
